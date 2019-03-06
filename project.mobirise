@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Chiantor",
+    "name": "Chiantor - Gioielleria Torino",
     "currentPage": "index.html",
     "theme": {
       "name": "colorm",
@@ -29,13 +29,17 @@
     "siteFonts": [],
     "favicon": "",
     "noImageResize": "",
-    "siteUrl": "undefined",
+    "siteUrl": "",
     "google-analytics": "",
-    "cookiesAlert": "",
+    "cookiesAlert": "Questo sito utilizza cookie di terze parti per inviarti pubblicità e servizi in linea con le tue preferenze. Se vuoi saperne di più o negare il consenso a tutti o ad alcuni cookie clicca qui.  <ahref='https://www.chiantor.com/privacy.html</a>. Chiudendo questo banner, scorrendo questa pagina o cliccando qualunque suo elemento acconsenti all'uso del cookie",
     "gdpr": "",
     "сanonical-url": "",
     "uniqCompNum": 31,
-    "versionPublish": "4.9.3"
+    "versionPublish": "4.9.4",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcherAuto": "on",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -160,9 +164,9 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "title": "",
-                "overlay": true,
+                "overlay": false,
                 "overlayOpacity": "0.2",
-                "text": "",
+                "text": "Un secolo di storia",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
@@ -215,7 +219,8 @@
               "font-size": "72px"
             },
             ".mbr-section-text": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#f1c40f"
             }
           }
         },
@@ -258,7 +263,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/diamond3-1-600x600.jpg",
+              "src": "@PROJECT_PATH@/assets/images/negozio-2-511x512.jpg",
               "class": "features-img",
               "width": 600,
               "link": "",
