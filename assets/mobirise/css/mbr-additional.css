@@ -893,8 +893,9 @@ blockquote {
   color: #ffffff;
 }
 #header7-d .mbr-section-title {
-  color: #242424;
+  color: #000000;
   font-weight: bold;
+  font-size: 8px;
 }
 #features9-e P {
   color: #000000;
